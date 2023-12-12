@@ -1,0 +1,1249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE8BCAE7C24BE966DB398821DD5DACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D5CEB93FF6D716A408272FAB7058BBD /* Pods-TouristActivitiesAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE2CFFB4BBAD2557D8D8D26642942FF /* Pods-TouristActivitiesAppTests-dummy.m */; };
+		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4629B04C806A5D4B9178283ABE6AA /* CosmosText.swift */; };
+		209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FAADBFC4AF014D9371F968355F9D4F /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314882DC7D8E89B5E435ADD6663DBC8C /* Pods-TouristActivitiesApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE2FF3F7AC94E12D4CFD5A9ABE67D47 /* Pods-TouristActivitiesApp-dummy.m */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD894444D395C74E95BFA0779695FC4 /* CosmosRating.swift */; };
+		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9233829EC5583DE45053D1D183B1B3F /* CosmosTouchTarget.swift */; };
+		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32F8480AFCAED46E895FE8EAA188BE /* CosmosSettings.swift */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515AA05015BFDEB632161FC8021DA83 /* DropDown+Appearance.swift */; };
+		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FBD2B65942F6A0C1B1D241BBD4F35 /* StarFillMode.swift */; };
+		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D438BA18BF3A3E09415317A02D2AC /* CosmosDefaultSettings.swift */; };
+		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C416EE5E3A3779A734C6FA66336F23D0 /* Cosmos-dummy.m */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D320F48888A811622A6C762C99EDD0E0 /* DropDownCell.xib */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6C0B225E6F4F873ABB6595728413E /* DPDConstants.swift */; };
+		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB961A1115F1E06B74054B6DF9AC0 /* CosmosAccessibility.swift */; };
+		789CE0DF707AE48BFB0B8ECFA5DEF575 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBE1E96660E989A30148833D49D15B1 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DF3BD5AD9F2DC52779ADC1E83EB28 /* CosmosTouch.swift */; };
+		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EDBEDBE4D1FED41536CA7A4E31D05 /* StarLayer.swift */; };
+		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE050900DCD1909080DB24096F9B11 /* CosmosSize.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5F87565FFC6FC3929A8870FCA4302 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14529C381FB0F1770C55761578453A07 /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA71CF35E9A842C4AEE16ED1E2FEE66 /* DropDown-dummy.m */; };
+		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2768D00AF09AF943B6CBA0DAE3B63E /* RightToLeft.swift */; };
+		983718B18F3093109213268CA6B59D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99CD57D09449A7F160998E24724CFAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B63DB4F3B44826889813ECAC78C55 /* CosmosLayerHelper.swift */; };
+		A724566438CF55D45C6720A410EA5D3D /* Pods-TouristActivitiesApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40154BDA8CAC3C85515F3A650C30F5C2 /* Pods-TouristActivitiesApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC17861970CA412E5A95C6BF0E84894 /* CosmosLayers.swift */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A6771F0F19939DF1ED7CC1DEF1D0F /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461E13ADDDA8F4CFB22A1DC69DF9963 /* DropDownCell.swift */; };
+		C2BDE903EBFA7B25CA911CEB437F6591 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDAB9763529E04167E03A43C2CB63AF /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m */; };
+		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771559C14447926FCA6A2FB6D7FACBB3 /* CosmosLocalizedRating.swift */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC6635FEB9068922CAEE49DE9EE8D01 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374EF378DCA7FD23325DA725BD60360C /* CosmosView.swift */; };
+		EF209CF812EA891419EE27017AD56BAF /* Pods-TouristActivitiesAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79044D39ACD755DC08B9389FD9C6070F /* Pods-TouristActivitiesAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562062AEFB81E6AA9F80EACEC830DF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		5919E9327F09259E79134073B141DFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		88FB61DFA79E44B699E30F7C692DADD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		C05BDD0E22D57E07C4E743DA2F1D3D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63044430DC6439562F34D2053B03CA40;
+			remoteInfo = "Pods-TouristActivitiesApp";
+		};
+		E284CA1E321AFE14C7721782C952718D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F4629B04C806A5D4B9178283ABE6AA /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		0DBE1E96660E989A30148833D49D15B1 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		0FE9634B056B3C761F61C33B91A4FEB4 /* Pods-TouristActivitiesAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TouristActivitiesAppTests"; path = Pods_TouristActivitiesAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14529C381FB0F1770C55761578453A07 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		1CA71CF35E9A842C4AEE16ED1E2FEE66 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		32D9E84419B1B6373687D0D2B05F9C1B /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		353E1295C601E633F681F67446EF157E /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		374EF378DCA7FD23325DA725BD60360C /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		375E1545D8F304A1DF1144D3C7D08D77 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests"; path = Pods_TouristActivitiesApp_TouristActivitiesAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17C5CA3494DDA83A2CA4AD75E682DA /* Pods-TouristActivitiesApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TouristActivitiesApp"; path = Pods_TouristActivitiesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E415DD02345A40373B75E0DF6F96891 /* Pods-TouristActivitiesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesApp.release.xcconfig"; sourceTree = "<group>"; };
+		400393247BD0300C4838EE3B9489B374 /* Pods-TouristActivitiesAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TouristActivitiesAppTests.modulemap"; sourceTree = "<group>"; };
+		40154BDA8CAC3C85515F3A650C30F5C2 /* Pods-TouristActivitiesApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouristActivitiesApp-umbrella.h"; sourceTree = "<group>"; };
+		439539B4EF7580AE7E1C954C29897CA5 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-Info.plist"; sourceTree = "<group>"; };
+		43F663D69D56F89E0F3E3597D48927B3 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		45824BBFDC3C47493B09E05BAF9F1498 /* Pods-TouristActivitiesApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouristActivitiesApp-frameworks.sh"; sourceTree = "<group>"; };
+		46F6C0B225E6F4F873ABB6595728413E /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		48DE050900DCD1909080DB24096F9B11 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		502EDBEDBE4D1FED41536CA7A4E31D05 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		50FAADBFC4AF014D9371F968355F9D4F /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		523A6771F0F19939DF1ED7CC1DEF1D0F /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		52C1416FF5CBA971DEE8501894BBAACD /* Pods-TouristActivitiesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5461E13ADDDA8F4CFB22A1DC69DF9963 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		5B4DF3BD5AD9F2DC52779ADC1E83EB28 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		5E3309A2090B46A190C28E1362B46DF4 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		64E845980607F2E88F0CB98F211BE6BA /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests.modulemap"; sourceTree = "<group>"; };
+		67EE9DB18A3BD4D8A3824F968EF02104 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		6B2768D00AF09AF943B6CBA0DAE3B63E /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		6B408C15A65B6752A7AABFD7B190945C /* Pods-TouristActivitiesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA9030FBBB6BAB0847BC761551078CD /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD894444D395C74E95BFA0779695FC4 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771559C14447926FCA6A2FB6D7FACBB3 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		79044D39ACD755DC08B9389FD9C6070F /* Pods-TouristActivitiesAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouristActivitiesAppTests-umbrella.h"; sourceTree = "<group>"; };
+		8763DADC4274CD4BA044AE087B8F8533 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		88BE83809D186CEC4D720AAF43F7B1D7 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		89F7AE8BE7F95D7E33B50179F1F305A7 /* Pods-TouristActivitiesApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouristActivitiesApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D36D5A645AAB5E350F8463792011A18 /* Pods-TouristActivitiesAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesAppTests-Info.plist"; sourceTree = "<group>"; };
+		962D438BA18BF3A3E09415317A02D2AC /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FC078A4AEBB8B4AF899F3EA2629A59 /* Pods-TouristActivitiesAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A925C4836759467CB4509C5BACCB0F4E /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		AEDD6F4852F5A10A14E2442FE856FB7F /* Pods-TouristActivitiesApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesApp-Info.plist"; sourceTree = "<group>"; };
+		B515AA05015BFDEB632161FC8021DA83 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		B55FBD2B65942F6A0C1B1D241BBD4F35 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		B876E7162E9FBDB1EC8FF04F64333F05 /* Pods-TouristActivitiesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA555B21E2260BB4A58C1C8DD8BDF78D /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BBC17861970CA412E5A95C6BF0E84894 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		BDD01A38AE2ABDB93F226D4643E56290 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		C416EE5E3A3779A734C6FA66336F23D0 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		C5F594EE2A8ECC72AA06FAEC8DC182D1 /* Pods-TouristActivitiesApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C89B31FD3A11936F525632A5892F4930 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9585AA430A3B5FBF12B6FF550676224 /* Pods-TouristActivitiesAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouristActivitiesAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF32F8480AFCAED46E895FE8EAA188BE /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		CF4B63DB4F3B44826889813ECAC78C55 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		D11DB961A1115F1E06B74054B6DF9AC0 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		D320F48888A811622A6C762C99EDD0E0 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		D7726A9C1E664326424DBB5CBB8BBBFB /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		DCC6635FEB9068922CAEE49DE9EE8D01 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		DCE2CFFB4BBAD2557D8D8D26642942FF /* Pods-TouristActivitiesAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouristActivitiesAppTests-dummy.m"; sourceTree = "<group>"; };
+		DDE2FF3F7AC94E12D4CFD5A9ABE67D47 /* Pods-TouristActivitiesApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouristActivitiesApp-dummy.m"; sourceTree = "<group>"; };
+		E1D5F87565FFC6FC3929A8870FCA4302 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		E699F6E49F2BD4794F3D89AE1883E958 /* Pods-TouristActivitiesApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TouristActivitiesApp.modulemap"; sourceTree = "<group>"; };
+		F8AD2ABDADDB245464E0493E1C2DFE47 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9233829EC5583DE45053D1D183B1B3F /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		FC5E52F7EBE0CF6DD875AEEA2B761C8C /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
+		FEDAB9763529E04167E03A43C2CB63AF /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8489F496093CA708BAADE9769C8F16C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983718B18F3093109213268CA6B59D60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A78B0739BC1EB3D1D5DA432A5156C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8BCAE7C24BE966DB398821DD5DACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742397AC45AEEA6912E80552A3BF82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CD57D09449A7F160998E24724CFAEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE040DBFF3DC0DC2684F08F9A414708 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D9E84419B1B6373687D0D2B05F9C1B /* DropDown.modulemap */,
+				1CA71CF35E9A842C4AEE16ED1E2FEE66 /* DropDown-dummy.m */,
+				D7726A9C1E664326424DBB5CBB8BBBFB /* DropDown-Info.plist */,
+				5E3309A2090B46A190C28E1362B46DF4 /* DropDown-prefix.pch */,
+				DCC6635FEB9068922CAEE49DE9EE8D01 /* DropDown-umbrella.h */,
+				A925C4836759467CB4509C5BACCB0F4E /* DropDown.debug.xcconfig */,
+				67EE9DB18A3BD4D8A3824F968EF02104 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		26AF16FD5BBACC6805B87135153EB2AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C8DE65A4EB411595274B2067989AAB5 /* Cosmos */,
+				4AF59AF527655EF9D475AA705F1B45EC /* DropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AF59AF527655EF9D475AA705F1B45EC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				46F6C0B225E6F4F873ABB6595728413E /* DPDConstants.swift */,
+				14529C381FB0F1770C55761578453A07 /* DPDKeyboardListener.swift */,
+				523A6771F0F19939DF1ED7CC1DEF1D0F /* DPDUIView+Extension.swift */,
+				E1D5F87565FFC6FC3929A8870FCA4302 /* DropDown.swift */,
+				B515AA05015BFDEB632161FC8021DA83 /* DropDown+Appearance.swift */,
+				5461E13ADDDA8F4CFB22A1DC69DF9963 /* DropDownCell.swift */,
+				F45D4A241DA8315C10CE4CCAB4752F17 /* Resources */,
+				1AE040DBFF3DC0DC2684F08F9A414708 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		52CA8051EB72EE2006DEB04EB5C785B6 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64E845980607F2E88F0CB98F211BE6BA /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.modulemap */,
+				353E1295C601E633F681F67446EF157E /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.markdown */,
+				C89B31FD3A11936F525632A5892F4930 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-acknowledgements.plist */,
+				FEDAB9763529E04167E03A43C2CB63AF /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m */,
+				BA555B21E2260BB4A58C1C8DD8BDF78D /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-frameworks.sh */,
+				439539B4EF7580AE7E1C954C29897CA5 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-Info.plist */,
+				0DBE1E96660E989A30148833D49D15B1 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h */,
+				6DA9030FBBB6BAB0847BC761551078CD /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.debug.xcconfig */,
+				F8AD2ABDADDB245464E0493E1C2DFE47 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.release.xcconfig */,
+			);
+			name = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests";
+			path = "Target Support Files/Pods-TouristActivitiesApp-TouristActivitiesAppUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C8DE65A4EB411595274B2067989AAB5 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				D11DB961A1115F1E06B74054B6DF9AC0 /* CosmosAccessibility.swift */,
+				962D438BA18BF3A3E09415317A02D2AC /* CosmosDefaultSettings.swift */,
+				CF4B63DB4F3B44826889813ECAC78C55 /* CosmosLayerHelper.swift */,
+				BBC17861970CA412E5A95C6BF0E84894 /* CosmosLayers.swift */,
+				771559C14447926FCA6A2FB6D7FACBB3 /* CosmosLocalizedRating.swift */,
+				6FD894444D395C74E95BFA0779695FC4 /* CosmosRating.swift */,
+				CF32F8480AFCAED46E895FE8EAA188BE /* CosmosSettings.swift */,
+				48DE050900DCD1909080DB24096F9B11 /* CosmosSize.swift */,
+				05F4629B04C806A5D4B9178283ABE6AA /* CosmosText.swift */,
+				5B4DF3BD5AD9F2DC52779ADC1E83EB28 /* CosmosTouch.swift */,
+				F9233829EC5583DE45053D1D183B1B3F /* CosmosTouchTarget.swift */,
+				374EF378DCA7FD23325DA725BD60360C /* CosmosView.swift */,
+				6B2768D00AF09AF943B6CBA0DAE3B63E /* RightToLeft.swift */,
+				B55FBD2B65942F6A0C1B1D241BBD4F35 /* StarFillMode.swift */,
+				502EDBEDBE4D1FED41536CA7A4E31D05 /* StarLayer.swift */,
+				E1F5CCB2EAF41DF7DB87EAD456DC7CAF /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		8876BDC999B2FD738F63283758C6AA28 /* Pods-TouristActivitiesApp */ = {
+			isa = PBXGroup;
+			children = (
+				E699F6E49F2BD4794F3D89AE1883E958 /* Pods-TouristActivitiesApp.modulemap */,
+				89F7AE8BE7F95D7E33B50179F1F305A7 /* Pods-TouristActivitiesApp-acknowledgements.markdown */,
+				C5F594EE2A8ECC72AA06FAEC8DC182D1 /* Pods-TouristActivitiesApp-acknowledgements.plist */,
+				DDE2FF3F7AC94E12D4CFD5A9ABE67D47 /* Pods-TouristActivitiesApp-dummy.m */,
+				45824BBFDC3C47493B09E05BAF9F1498 /* Pods-TouristActivitiesApp-frameworks.sh */,
+				AEDD6F4852F5A10A14E2442FE856FB7F /* Pods-TouristActivitiesApp-Info.plist */,
+				40154BDA8CAC3C85515F3A650C30F5C2 /* Pods-TouristActivitiesApp-umbrella.h */,
+				B876E7162E9FBDB1EC8FF04F64333F05 /* Pods-TouristActivitiesApp.debug.xcconfig */,
+				3E415DD02345A40373B75E0DF6F96891 /* Pods-TouristActivitiesApp.release.xcconfig */,
+			);
+			name = "Pods-TouristActivitiesApp";
+			path = "Target Support Files/Pods-TouristActivitiesApp";
+			sourceTree = "<group>";
+		};
+		9CA7B62E44383320017CBA01C1FCE305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				3C17C5CA3494DDA83A2CA4AD75E682DA /* Pods-TouristActivitiesApp */,
+				375E1545D8F304A1DF1144D3C7D08D77 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */,
+				0FE9634B056B3C761F61C33B91A4FEB4 /* Pods-TouristActivitiesAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E90861B66A90CA515E23A5544A21907 /* Pods-TouristActivitiesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				400393247BD0300C4838EE3B9489B374 /* Pods-TouristActivitiesAppTests.modulemap */,
+				C9585AA430A3B5FBF12B6FF550676224 /* Pods-TouristActivitiesAppTests-acknowledgements.markdown */,
+				A4FC078A4AEBB8B4AF899F3EA2629A59 /* Pods-TouristActivitiesAppTests-acknowledgements.plist */,
+				DCE2CFFB4BBAD2557D8D8D26642942FF /* Pods-TouristActivitiesAppTests-dummy.m */,
+				8D36D5A645AAB5E350F8463792011A18 /* Pods-TouristActivitiesAppTests-Info.plist */,
+				79044D39ACD755DC08B9389FD9C6070F /* Pods-TouristActivitiesAppTests-umbrella.h */,
+				52C1416FF5CBA971DEE8501894BBAACD /* Pods-TouristActivitiesAppTests.debug.xcconfig */,
+				6B408C15A65B6752A7AABFD7B190945C /* Pods-TouristActivitiesAppTests.release.xcconfig */,
+			);
+			name = "Pods-TouristActivitiesAppTests";
+			path = "Target Support Files/Pods-TouristActivitiesAppTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				26AF16FD5BBACC6805B87135153EB2AB /* Pods */,
+				9CA7B62E44383320017CBA01C1FCE305 /* Products */,
+				E97A467B048D4B7E6C1824B345C0309E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F5CCB2EAF41DF7DB87EAD456DC7CAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8763DADC4274CD4BA044AE087B8F8533 /* Cosmos.modulemap */,
+				C416EE5E3A3779A734C6FA66336F23D0 /* Cosmos-dummy.m */,
+				43F663D69D56F89E0F3E3597D48927B3 /* Cosmos-Info.plist */,
+				88BE83809D186CEC4D720AAF43F7B1D7 /* Cosmos-prefix.pch */,
+				50FAADBFC4AF014D9371F968355F9D4F /* Cosmos-umbrella.h */,
+				BDD01A38AE2ABDB93F226D4643E56290 /* Cosmos.debug.xcconfig */,
+				FC5E52F7EBE0CF6DD875AEEA2B761C8C /* Cosmos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		E97A467B048D4B7E6C1824B345C0309E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8876BDC999B2FD738F63283758C6AA28 /* Pods-TouristActivitiesApp */,
+				52CA8051EB72EE2006DEB04EB5C785B6 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */,
+				9E90861B66A90CA515E23A5544A21907 /* Pods-TouristActivitiesAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F45D4A241DA8315C10CE4CCAB4752F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D320F48888A811622A6C762C99EDD0E0 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40097E5779029102CCD9C3E4EE752DDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565960F4C3CE9577C3C4552B26F1C07E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CE0DF707AE48BFB0B8ECFA5DEF575 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58841ECABBF213656AEC4AE170553043 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF209CF812EA891419EE27017AD56BAF /* Pods-TouristActivitiesAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A423351DE195188E97A4E72250C5E1D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A724566438CF55D45C6720A410EA5D3D /* Pods-TouristActivitiesApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				40097E5779029102CCD9C3E4EE752DDF /* Headers */,
+				B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */,
+				6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */,
+				C77B64B25EBB18C8D211C061D92B0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */;
+			productType = "com.apple.product-type.framework";
+		};
+		63044430DC6439562F34D2053B03CA40 /* Pods-TouristActivitiesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55741B4055901FB085D0E1D970D8F280 /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesApp" */;
+			buildPhases = (
+				A423351DE195188E97A4E72250C5E1D9 /* Headers */,
+				91009784A165AAEBC472B04EF0001684 /* Sources */,
+				8489F496093CA708BAADE9769C8F16C2 /* Frameworks */,
+				6CE8DCD56C4180BA3F5A5EC38B0D96E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE28D6DB963C9EF64B4C61565B48555 /* PBXTargetDependency */,
+				5586E2FBDDDCC85EE6F77EBD862C5539 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouristActivitiesApp";
+			productName = Pods_TouristActivitiesApp;
+			productReference = 3C17C5CA3494DDA83A2CA4AD75E682DA /* Pods-TouristActivitiesApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8BC9B7A3B61885C355509A5C4929B9E /* Pods-TouristActivitiesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF38A33AA972799750F7E145F49A69D /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesAppTests" */;
+			buildPhases = (
+				58841ECABBF213656AEC4AE170553043 /* Headers */,
+				1A992A531B536F72B7C1F10BFADCC562 /* Sources */,
+				A742397AC45AEEA6912E80552A3BF82F /* Frameworks */,
+				FAA67B017DB3FD106986EF5D41A9AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EEF5A3E74E290725A6471B6DF756FB /* PBXTargetDependency */,
+			);
+			name = "Pods-TouristActivitiesAppTests";
+			productName = Pods_TouristActivitiesAppTests;
+			productReference = 0FE9634B056B3C761F61C33B91A4FEB4 /* Pods-TouristActivitiesAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D194C5D914E9C805B9BDEB6EA42EED04 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C8A653520DAE37D0AD49FAD5609C98 /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesApp-TouristActivitiesAppUITests" */;
+			buildPhases = (
+				565960F4C3CE9577C3C4552B26F1C07E /* Headers */,
+				C62D9D8E48F9B28C6F3C6BD100AAE639 /* Sources */,
+				8D4A78B0739BC1EB3D1D5DA432A5156C /* Frameworks */,
+				48CD400049FC164C4BB82FEA6E11A68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23196E961BFD2FFB56A4D94D597BA6A5 /* PBXTargetDependency */,
+				85ACCA13D7248966C29D1DFC48D79621 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouristActivitiesApp-TouristActivitiesAppUITests";
+			productName = Pods_TouristActivitiesApp_TouristActivitiesAppUITests;
+			productReference = 375E1545D8F304A1DF1144D3C7D08D77 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9CA7B62E44383320017CBA01C1FCE305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				63044430DC6439562F34D2053B03CA40 /* Pods-TouristActivitiesApp */,
+				D194C5D914E9C805B9BDEB6EA42EED04 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests */,
+				B8BC9B7A3B61885C355509A5C4929B9E /* Pods-TouristActivitiesAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48CD400049FC164C4BB82FEA6E11A68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE8DCD56C4180BA3F5A5EC38B0D96E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77B64B25EBB18C8D211C061D92B0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA67B017DB3FD106986EF5D41A9AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A992A531B536F72B7C1F10BFADCC562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5CEB93FF6D716A408272FAB7058BBD /* Pods-TouristActivitiesAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91009784A165AAEBC472B04EF0001684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314882DC7D8E89B5E435ADD6663DBC8C /* Pods-TouristActivitiesApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */,
+				772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */,
+				61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */,
+				99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */,
+				ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */,
+				CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */,
+				3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */,
+				4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */,
+				8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */,
+				1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */,
+				7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */,
+				449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */,
+				EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */,
+				9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */,
+				5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */,
+				7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D9D8E48F9B28C6F3C6BD100AAE639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BDE903EBFA7B25CA911CEB437F6591 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23196E961BFD2FFB56A4D94D597BA6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = 88FB61DFA79E44B699E30F7C692DADD9 /* PBXContainerItemProxy */;
+		};
+		5586E2FBDDDCC85EE6F77EBD862C5539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 562062AEFB81E6AA9F80EACEC830DF2F /* PBXContainerItemProxy */;
+		};
+		84EEF5A3E74E290725A6471B6DF756FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouristActivitiesApp";
+			target = 63044430DC6439562F34D2053B03CA40 /* Pods-TouristActivitiesApp */;
+			targetProxy = C05BDD0E22D57E07C4E743DA2F1D3D13 /* PBXContainerItemProxy */;
+		};
+		85ACCA13D7248966C29D1DFC48D79621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 5919E9327F09259E79134073B141DFD0 /* PBXContainerItemProxy */;
+		};
+		BCE28D6DB963C9EF64B4C61565B48555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = E284CA1E321AFE14C7721782C952718D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		191DBC37B5B8170E9D0EF168C5C2F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E415DD02345A40373B75E0DF6F96891 /* Pods-TouristActivitiesApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesApp/Pods-TouristActivitiesApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesApp/Pods-TouristActivitiesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		198D95AA2368B47407726B659E29C3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8AD2ABDADDB245464E0493E1C2DFE47 /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesApp-TouristActivitiesAppUITests/Pods-TouristActivitiesApp-TouristActivitiesAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesApp-TouristActivitiesAppUITests/Pods-TouristActivitiesApp-TouristActivitiesAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50519027C992750F2DBBBFD610DC6464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA9030FBBB6BAB0847BC761551078CD /* Pods-TouristActivitiesApp-TouristActivitiesAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesApp-TouristActivitiesAppUITests/Pods-TouristActivitiesApp-TouristActivitiesAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesApp-TouristActivitiesAppUITests/Pods-TouristActivitiesApp-TouristActivitiesAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		541BC981242B1982B06FCF1746599AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B408C15A65B6752A7AABFD7B190945C /* Pods-TouristActivitiesAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesAppTests/Pods-TouristActivitiesAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesAppTests/Pods-TouristActivitiesAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD01A38AE2ABDB93F226D4643E56290 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B65214ADF377FC3039FF0556DE5901EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B876E7162E9FBDB1EC8FF04F64333F05 /* Pods-TouristActivitiesApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesApp/Pods-TouristActivitiesApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesApp/Pods-TouristActivitiesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EE9DB18A3BD4D8A3824F968EF02104 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5E52F7EBE0CF6DD875AEEA2B761C8C /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A925C4836759467CB4509C5BACCB0F4E /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE18F6D80AB72EE346402F6A85505753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C1416FF5CBA971DEE8501894BBAACD /* Pods-TouristActivitiesAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TouristActivitiesAppTests/Pods-TouristActivitiesAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouristActivitiesAppTests/Pods-TouristActivitiesAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55741B4055901FB085D0E1D970D8F280 /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65214ADF377FC3039FF0556DE5901EE /* Debug */,
+				191DBC37B5B8170E9D0EF168C5C2F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF38A33AA972799750F7E145F49A69D /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE18F6D80AB72EE346402F6A85505753 /* Debug */,
+				541BC981242B1982B06FCF1746599AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C8A653520DAE37D0AD49FAD5609C98 /* Build configuration list for PBXNativeTarget "Pods-TouristActivitiesApp-TouristActivitiesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50519027C992750F2DBBBFD610DC6464 /* Debug */,
+				198D95AA2368B47407726B659E29C3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */,
+				C78C1BA85703BCE69743B7C85B847990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

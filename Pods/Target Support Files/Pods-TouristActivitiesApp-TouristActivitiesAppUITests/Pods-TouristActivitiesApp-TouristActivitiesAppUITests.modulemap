@@ -1,0 +1,6 @@
+framework module Pods_TouristActivitiesApp_TouristActivitiesAppUITests {
+  umbrella header "Pods-TouristActivitiesApp-TouristActivitiesAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
